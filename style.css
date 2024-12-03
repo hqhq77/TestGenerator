@@ -1,0 +1,27 @@
+#headings{
+    text-align: center;
+    font-size: 40px;
+    margin: 10px;
+}
+
+h2{
+    text-align: center;
+    margin: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    padding: 5px;
+}
+
+.grid-item {
+    /* border:1px solid black; */
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#display{
+    font-size:20px;
+}
