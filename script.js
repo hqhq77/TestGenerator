@@ -1,14 +1,3 @@
-const express = require("express");
-const cors = require("cors");
-
-const corsOptions = {
-  origin: "http://127.0.0.1:5173",
-};
-
-const app = express();
-app.use(cors(corsOptions));
-
-
 let SHEET_ID = '1o6fSgreNW3JLHLCbaYhwVSf0tKdzjz2QzLRT-IplqG4'
 let SHEET_TITLE = 'Database';
 let SHEET_RANGE = 'A1:G100';
