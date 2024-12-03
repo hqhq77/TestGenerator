@@ -18,13 +18,13 @@ fetch(FULL_URL)
             // for(var j=0;j<7;j++){
             //     console.log(data.table.rows[i].c[j].v);
                 elements+=`
-                <div>
+                <div id="dataDisplay">
                     <p>${data.table.rows[i].c[0].v}. ${data.table.rows[i].c[1].v}</p>
                     <pre>
-A ${data.table.rows[i].c[2].v}
-B ${data.table.rows[i].c[3].v}
-C ${data.table.rows[i].c[4].v}
-D ${data.table.rows[i].c[5].v}
+A. ${data.table.rows[i].c[2].v}
+B. ${data.table.rows[i].c[3].v}
+C. ${data.table.rows[i].c[4].v}
+D. ${data.table.rows[i].c[5].v}
                     </pre>
                 </div>
                 `
